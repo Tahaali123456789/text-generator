@@ -1,3 +1,15 @@
+import streamlit as st
+
+st.title("Flappy Bird Game")
+
+# Display an informational message
+st.write("This app demonstrates the Flappy Bird game developed with Python and Pygame.")
+
+# Embed the GIF (replace 'flappy_bird_demo.gif' with your file path or URL)
+st.image("https://raw.githubusercontent.com/yourusername/yourrepository/main/flappy_bird_demo.gif", caption="Flappy Bird Gameplay", use_column_width=True)
+
+st.write("The game was developed using Python's Pygame library. To play it interactively, clone the GitHub repository and run it locally.")
+
 import pygame
 import random
 
